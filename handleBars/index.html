@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handlin Handlebars</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+</div>
+
+<script id="productTemplate" type="x-handlebars-template">
+    {{#each this}}
+        {{#if stock}}
+            <div class="product {{type}}">
+                <h1>{{name}}</h1>
+                <h2>Maker: {{maker}}</h2>
+                <p>Price: {{price}}</p>
+                <p>There are {{calc 2 count}}</p>
+            </div>
+
+        {{else}}
+
+            <div class="product {{type}}">
+                <h1>{{name}}</h1>
+                <h2>{{maker}}</h2>
+                <p>{{price}}</p>
+                <h1>Out of Stock</h1>
+            </div>
+
+        {{/if}}
+    {{/each}}
+</script>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/handlebars-v4.0.2.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

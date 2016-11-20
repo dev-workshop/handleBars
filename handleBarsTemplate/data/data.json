@@ -1,0 +1,26 @@
+[
+  {
+    "id":0,
+    "name": "Small Handlebars",
+    "price": "Cheap",
+    "maker": "Larry's Handlebars"
+  },
+  {
+    "id":1,
+    "name": "Medium Handlebars",
+    "price": "Sort of Cheap",
+    "maker": "Larry's Handlebars"
+  },
+  {
+    "id":2,
+    "name": "Large Handlebars",
+    "price": "Expensive",
+    "maker": "Larry's Handlebars"
+  },
+  {
+    "id":3,
+    "name": "Huge Handlebars",
+    "price": "Really Expensive",
+    "maker": "Larry's Handlebars"
+  }
+]
